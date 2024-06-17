@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="FishDat Údaje">
+
+        <EditTextPreference
+            app:key="filename"
+            app:title="Názov dátového súboru"
+            app:defaultValue = "data"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Odosielané údajov">
+        <EditTextPreference
+            app:key="email"
+            app:title="Tvoj EMAIL"
+            app:defaultValue = ""
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="email_subject"
+            app:title="Hlavička emailu s údajmi"
+            app:defaultValue = "FishDat údaje"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="email_text"
+            app:title="Text správy k odosielaným údajom"
+            app:defaultValue = "Aktuálny zoznam úlovkov z aplikácie FishDat"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

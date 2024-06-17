@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.add_fish.add_fishFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvAddFishLabel"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zadaj info o novom úlovku"/>
+
+        <TextView
+            android:id="@+id/tvFishNameLabel"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="Druhový názov ryby"/>
+
+        <EditText
+            android:id="@+id/etFishName"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:ems="10"
+            android:textAlignment= "center"
+            android:hint="Žeby kapor?"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:id="@+id/tvFishLengthLabel"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Dĺžka ryby v centimetroch"/>
+
+        <EditText
+            android:id="@+id/etFishLength"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:ems="10"
+            android:textAlignment= "center"
+            android:hint=""
+            android:inputType="number"
+            />
+
+        <TextView
+            android:id="@+id/tvFishWeightLabel"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Hmotnosť ryby v kilogramoch"/>
+
+        <EditText
+            android:id="@+id/etFishWeight"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:ems="10"
+            android:textAlignment= "center"
+            android:hint=""
+            android:inputType="numberDecimal"
+            />
+
+        <Button
+            android:id="@+id/btnEmpty"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Nič som neulovil"
+            />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Uložiť úlovok"
+            />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Späť na zoznam"
+            />
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:text="ERROR"
+            />
+    </LinearLayout>
+
+
+
+</FrameLayout>

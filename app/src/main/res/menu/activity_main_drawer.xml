@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/menu_list_rtl_36"
+            android:title="@string/menu_list" />
+
+        <item
+            android:id="@+id/nav_revir"
+            android:icon="@drawable/add_revir_36"
+            android:title="@string/menu_revir" />
+
+        <item
+            android:id="@+id/nav_add_fish"
+            android:icon="@drawable/baseline_add_36"
+            android:title="@string/menu_add_fish" />
+
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/send_email_36"
+            android:title="@string/menu_send" />
+    </group>
+</menu>
